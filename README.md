@@ -14,3 +14,9 @@
 - default direction이 row => main axis(horizontal), cross axis(vertical)
 - justify-content: main axis방향으로 item을 옮긴다.
 - align-items: cross axis방향으로 item을 옮긴다.
+
+### 1.3 Column and Row
+
+- flex-direction이 column이면 row와 반대로 된다.
+- flex-direction: row => main axis(horizontal), cross axis(vertical)
+- flex-direction: column => main axis(vertical), cross axis(horizontal)
