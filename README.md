@@ -20,3 +20,7 @@
 - flex-direction이 column이면 row와 반대로 된다.
 - flex-direction: row => main axis(horizontal), cross axis(vertical)
 - flex-direction: column => main axis(vertical), cross axis(horizontal)
+
+### 1.4 align-self and order
+
+- align-self는 align-item와 같이 cross axis 방향으로 item을 옮긴다.
