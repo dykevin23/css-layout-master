@@ -1,6 +1,6 @@
 # css-layout-master
 
-## FLEXBOX
+## 1 FLEXBOX
 
 ### 1.1 First Rule of Flexbox
 
@@ -30,3 +30,11 @@
 - flex-wrap:nowrap는 flex-box의 child item을 한 줄(row)에 나타내기 위해 설정된 width값을 무시할 수 있는 property(default)
 - flex-wrap:wrap은 flex-box의 child item의 설정을 유지할 수 있도록 하는 property
 - align-content는 flex-box해당 라인에 대한 property
+
+### 1.6 flex-grow, flex-shrink
+
+- shrink:수축
+- flex-grow, flex-shrink는 child에게 주는 property
+- flex-shrink는 ui화면 공간이 줄어들 경우 설정한 number만큼 더 줄어드는 property(default:1)
+- flex-grow는 box 주변 여분의 공간이 있으면 설정한 number만큼 차지하는 property(default:0)
+- flex box는 child item을 한 줄(row)에 표기하며 모든 property는 row가 기준이 된다.
