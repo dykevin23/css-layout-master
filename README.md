@@ -34,7 +34,14 @@
 ### 1.6 flex-grow, flex-shrink
 
 - shrink:수축
-- flex-grow, flex-shrink는 child에게 주는 property
+- flex-grow, flex-shrink는 child에 적용하는 property
 - flex-shrink는 ui화면 공간이 줄어들 경우 설정한 number만큼 더 줄어드는 property(default:1)
 - flex-grow는 box 주변 여분의 공간이 있으면 설정한 number만큼 차지하는 property(default:0)
 - flex box는 child item을 한 줄(row)에 표기하며 모든 property는 row가 기준이 된다.
+
+### 1.7 flex-basis
+
+- flex-basis는 child에 적용하는 property
+- flex-basis는 처음 element에 주는 크기 property
+- flex-basis는 main axios에만 작동한다. (flex-direction: row => 가로, flex-direction: column => 세로)
+- flex-direction에 따라 width와 height와 연결된다.
