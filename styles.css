@@ -1,7 +1,7 @@
 .father {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  gap: 20px;
 }
 
 .child {

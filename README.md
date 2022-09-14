@@ -53,3 +53,14 @@
 ### 2.1 Life Before Grid
 
 - flexBox로는 grid를 구현하기 어렵다.
+
+### 2.2 CSS Grid Basic Concepts
+
+- flexBox와 유사하게 부모 element에서부터 시작된다.
+- grid-template-columns를 사용하여 column을 정의할 수 있다\
+  ex) grid-template-columns: 20px 20px 20px => 20px 3개의 column을 가진 grid
+- column-gap은 column간의 간격을 설정하는 property
+- row-gap은 row간의 간격을 설정하는 property
+- gap만 사용하면 column/row의 모든 간격을 설정하는 property
+- grid-template-rows를 사용하여 row를 정의할 수 있다.\
+  ex) grid-template-columns와 동일하게 설정
