@@ -45,3 +45,11 @@
 - flex-basis는 처음 element에 주는 크기 property
 - flex-basis는 main axios에만 작동한다. (flex-direction: row => 가로, flex-direction: column => 세로)
 - flex-direction에 따라 width와 height와 연결된다.
+
+---
+
+## 2 GRID
+
+### 2.1 Life Before Grid
+
+- flexBox로는 grid를 구현하기 어렵다.
