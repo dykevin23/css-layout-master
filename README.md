@@ -73,3 +73,10 @@
   각 class별 name으로 layout을 설정 할 수 있다.\
   ex) "header header header header"\
    "content content content content"...
+
+### 2.4 Rows and Columns
+
+- grid-template-area를 사용하지 않고 grid-columns-start/end 와 grid-rows-start/end로 동일하게 설정할 수 있다.
+- grid-columns-start/end로 영역을 지정할 수 있다.(선이 기준)\
+  ex) start:1, end: 2 => 1column~2column까지 설정이 아니라 1번째 라인~2번째 라인까지 영역을 설정함을 의미
+- grid-rows-start/end도 동일하게 설정
