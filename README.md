@@ -80,3 +80,11 @@
 - grid-columns-start/end로 영역을 지정할 수 있다.(선이 기준)\
   ex) start:1, end: 2 => 1column~2column까지 설정이 아니라 1번째 라인~2번째 라인까지 영역을 설정함을 의미
 - grid-rows-start/end도 동일하게 설정
+
+### 2.5 Shortcuts
+
+- grid-columns-start/end와 grid-rows-start/end를 사용하지 않고 grid-column와 grid-row로 대체할 수 있다.\
+  ex) grid-column: 1 / 5, grid-row: 2 / 4
+- end값은 -1로 대체할 수 있고 , -1, -2형태도 가능하다.(라인의 수를 셀 필요가 없다.)
+- span을 이용하여 영역을 설정할 수 있다.
+  ex) grid-column: span 4; => 4개 column영역을 할당함을 의미
