@@ -64,3 +64,12 @@
 - gap만 사용하면 column/row의 모든 간격을 설정하는 property
 - grid-template-rows를 사용하여 row를 정의할 수 있다.\
   ex) grid-template-columns와 동일하게 설정
+
+### 2.3 Grid Template Areas
+
+- grid-template-columns로 column을 정의할 수 있다(+repeat()사용)
+- grid-template-rows로 row를 정의할 수 있다.(+repeat()사용)
+- grid-template-areas로 layout을 설정할 수 있다.\
+  각 class별 name으로 layout을 설정 할 수 있다.\
+  ex) "header header header header"\
+   "content content content content"...
