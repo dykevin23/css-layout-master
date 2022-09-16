@@ -88,3 +88,7 @@
 - end값은 -1로 대체할 수 있고 , -1, -2형태도 가능하다.(라인의 수를 셀 필요가 없다.)
 - span을 이용하여 영역을 설정할 수 있다.
   ex) grid-column: span 4; => 4개 column영역을 할당함을 의미
+
+### 2.6 Line Naming
+
+- grid-template-columns와 grid-template-rows에 line naming을 하여 grid-column, grid-row에서 활용할 수 있으나, 2.4, 2.5 방법이 훨씬 이해가 쉽고 간편하다. 그럼으로 skip
