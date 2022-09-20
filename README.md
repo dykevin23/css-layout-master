@@ -115,3 +115,11 @@
   place-content(justify-content, align-content)는 grid자체를 설정한다.\
   ex) grid-container는 100% width를 가지며, justify-content: center;시 grid가 가운데로 정렬된다.
 - place-content(justify-content, align-content)는 grid를 정렬하는 property
+
+### 2.10 Auto Columns and Rows
+
+- place-self(align-self, justify-self)는 place-items, place-content와 다르게 grid item 개별적으로 적용된다.
+- grid-auto-rows는 grid-template-rows에 지정한 rows보다 많은 데이터가 있을경우 설정한 값으로 row를 설정하는 property
+- grid-auto-flow는 설정한 rows보다 많은 데이터가 있을경우 row가 아닌 columns으로 배치되게 해준다.\
+  ex) grid-auto-flow: column => 정렬 direction도 바뀐다.\
+  auto: 수평, column: 수직

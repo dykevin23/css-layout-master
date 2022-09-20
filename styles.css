@@ -1,26 +1,17 @@
 .grid {
-  background: black;
   color: white;
   display: grid;
   gap: 5px;
-  height: 50vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: repeat(4, 100px);
-  justify-content: center;
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
 }
 
-.header {
-  background-color: olive;
+.item:nth-child(odd) {
+  background-color: darkkhaki;
 }
 
-.content {
-  background-color: aqua;
-}
-
-.nav {
-  background-color: blueviolet;
-}
-
-.footer {
-  background-color: brown;
+.item:nth-child(even) {
+  background-color: darkgreen;
 }
