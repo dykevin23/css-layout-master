@@ -108,3 +108,10 @@
 - grid는 자식을 가지고 그 자식들을 늘여서(stretch) 본인을 채운다.
 - grid 자식의 내용이 없으면 보이지 않는다(width, height가 설정되지 않은경우)
 - 반대로 grid 자식의 내용이 없어도 width와 height가 있으면 보인다.
+
+### 2.9 Place Content
+
+- place-items(justify-items, align-items)는 grid의 cell(각 자식 item)을 설정하는 property이며\
+  place-content(justify-content, align-content)는 grid자체를 설정한다.\
+  ex) grid-container는 100% width를 가지며, justify-content: center;시 grid가 가운데로 정렬된다.
+- place-content(justify-content, align-content)는 grid를 정렬하는 property
