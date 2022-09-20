@@ -123,3 +123,7 @@
 - grid-auto-flow는 설정한 rows보다 많은 데이터가 있을경우 row가 아닌 columns으로 배치되게 해준다.\
   ex) grid-auto-flow: column => 정렬 direction도 바뀐다.\
   auto: 수평, column: 수직
+
+### 2.11 minmax
+
+- minmax는 최소, 최대사이즈를 설정해준다.
