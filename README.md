@@ -127,3 +127,9 @@
 ### 2.11 minmax
 
 - minmax는 최소, 최대사이즈를 설정해준다.
+
+### 2.12 auto-fit auto-fill
+
+- auto-fill은 cell을 채워준다(영역이 비어있어도 할당하는 개념)
+- auto-fit은 화면에 맞게 cell 영역을 맞춘다.
+- 반응형 디자인시 사용
