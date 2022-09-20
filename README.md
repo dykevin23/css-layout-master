@@ -100,3 +100,11 @@
 - fr을 사용하면 비율로 공간을 설정하기때문에 화면 크기가 달라져도 layout 화면이 유지된다
 - grid-template에서는 grid-area의 이름을 사용한다. 그리고 row의 높이를 지정한다.
 - grid-template을 사용하면 grid-area의 이름으로 그림을 그리듯 layout을 구성할 수 있다.
+
+### 2.8 Place Items
+
+- justify-items(수평, 가로)의 기본값은 stretch
+- align-items(수직, 세로)의 기본값은 stretch
+- grid는 자식을 가지고 그 자식들을 늘여서(stretch) 본인을 채운다.
+- grid 자식의 내용이 없으면 보이지 않는다(width, height가 설정되지 않은경우)
+- 반대로 grid 자식의 내용이 없어도 width와 height가 있으면 보인다.
