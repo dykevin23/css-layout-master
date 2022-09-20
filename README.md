@@ -92,3 +92,11 @@
 ### 2.6 Line Naming
 
 - grid-template-columns와 grid-template-rows에 line naming을 하여 grid-column, grid-row에서 활용할 수 있으나, 2.4, 2.5 방법이 훨씬 이해가 쉽고 간편하다. 그럼으로 skip
+
+### 2.7 Grid Template
+
+- fr은 fraction이며, 사용 가능한 공간을 뜻한다.(grid에서 가능한 공간을 차지한다는 뜻)
+- fr은 width값은 없어도 괜찮으나, height값은 있어야 한다.
+- fr을 사용하면 비율로 공간을 설정하기때문에 화면 크기가 달라져도 layout 화면이 유지된다
+- grid-template에서는 grid-area의 이름을 사용한다. 그리고 row의 높이를 지정한다.
+- grid-template을 사용하면 grid-area의 이름으로 그림을 그리듯 layout을 구성할 수 있다.
