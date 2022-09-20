@@ -133,3 +133,10 @@
 - auto-fill은 cell을 채워준다(영역이 비어있어도 할당하는 개념)
 - auto-fit은 화면에 맞게 cell 영역을 맞춘다.
 - 반응형 디자인시 사용
+
+### 2.13 min-content max-content
+
+- content가 가진 내용을 토대로
+- min-content는 content 사이즈가 작아질 수 있는 가장 작은 크기로
+- max-content는 content 사이즈가 필요한 가장 큰 크기로
+- repeat, minmax, auto-fit, auto-fill과 결합하여 반응형을 만들수 있다.
